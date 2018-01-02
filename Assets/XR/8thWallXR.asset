@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 682965911, guid: f7fff1a98506b0033937160dbbe857ba, type: 3}
+  m_Name: 8thWallXR
+  m_EditorClassIdentifier: 
+  allChannels:
+  - release
+  - beta
+  channel: release
+  installedChannel: release
+  version: 4.0.7.179
+  autoUpdate: 1
+  autoUpdateSec: 3600
+  updateTimeoutSec: 25
+  downloadTimeoutSec: 600
+  updateAvailable: 0
+  releaseNotes:
+  - id: 4
+    notes: "## Release 4\n* New Features:\n  * 6DoF camera motion for phones without
+      ARKit or ARCore.\n* Enhancements and Fixes:\n  * XRSurfaceController:\n    *
+      New: GetSurfaceWithId() - Ability to select surface with specific ID.\n    *
+      lockToFirstSurface: Fixed issue on phones without ARKit or ARCore.\n    * deformToSurface:
+      Fixed issue on phones without ARKit or ARCore.\n  * XRController:\n    * New:
+      Recenter() - Reset camera camera to original position on phones without ARKit
+      or ARCore.\n    * UpdateCameraProjectionMatrix() - Fixed issue on phones without
+      ARKit or ARCore.\n  * XREngine:\n    * Up to  3x improved performance on phones
+      without ARKit or ARCore.\n"
+  - id: 3
+    notes: "## Release 3\n* XRSurfaceController enhancements:\n  * Specify if object
+      should be displayed in scene immediately, or only after surface is detected\n
+      \ * Specify if any surface should be used, or only \"ground\" surfaces.\n  *
+      Specify if object should be locked to first detected surface, or move to currently
+      active surface\n* XRLightController performance improvements\n* Fixed frame
+      timing for ARCore\n* Fixed issues with mismatched surfaces in ARCore\n* New
+      Sunlight Controller available on community GitHub repo"
+  - id: 2
+    notes: '## Release 2
+
+
+      * ARCore support
+
+      * Deformable surface meshes
+
+      * Improved surface mesh stability
+
+      * AR Shadow support
+
+      * ARKit native resolution support
+
+      * ARKit frame delay fixes
+
+      * Unity Editor play mode fixes
+
+      * Support for latest iOS 11 release'
+  - id: 1
+    notes: '## Release 1
+
+
+      Initial release of 8th Wall XR'
